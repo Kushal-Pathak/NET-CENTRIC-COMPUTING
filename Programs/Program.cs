@@ -7,7 +7,6 @@
         {
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
-            //if (name == NULL) name = "Guest";
             Console.WriteLine("Hello " + name + " how are you?");
         }
     }
