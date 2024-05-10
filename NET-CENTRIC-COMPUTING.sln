@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWorld", "Programs\HelloWorld.csproj", "{53F06F16-163C-4B25-B885-5377CA228C0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASP", "ASP", "{223F5948-540B-458E-8273-6345B0B6C2F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp", "ASP\WebApp\WebApp.csproj", "{89453EDF-6AD2-4E9E-A0A5-FDECC2E1B6CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F06F16-163C-4B25-B885-5377CA228C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F06F16-163C-4B25-B885-5377CA228C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F06F16-163C-4B25-B885-5377CA228C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F06F16-163C-4B25-B885-5377CA228C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89453EDF-6AD2-4E9E-A0A5-FDECC2E1B6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89453EDF-6AD2-4E9E-A0A5-FDECC2E1B6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89453EDF-6AD2-4E9E-A0A5-FDECC2E1B6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89453EDF-6AD2-4E9E-A0A5-FDECC2E1B6CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89453EDF-6AD2-4E9E-A0A5-FDECC2E1B6CD} = {223F5948-540B-458E-8273-6345B0B6C2F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96130AA5-CB71-4D06-8653-385A11727548}
+	EndGlobalSection
+EndGlobal
