@@ -1,0 +1,34 @@
+@{
+    ViewData["Title"] = "List Employee";
+}
+
+@model List<Person>
+
+<h1>
+    Employee Index
+</h1>
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <th>
+                    <a href="/employee/detail?name=@emp.Name">@emp.Name</a>
+                </th>
+                <td>
+                    @emp.Address
+                </td>
+                <td>
+                    @emp.Salary
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
