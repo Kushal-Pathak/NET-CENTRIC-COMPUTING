@@ -16,8 +16,13 @@ namespace LearnCollections
             // numbers.RemoveAt(1); //removes element at index 1
             // numbers.RemoveRange(1, 3); //removes element of index 1, 2, 3
             // numbers.Clear(); //clears a list
+<<<<<<< HEAD
             // Console.WriteLine(numbers.Contains(11)); //checks if list contains element 1
             // Console.WriteLine(numbers.IndexOf(11)); //returns the index of element 11
+=======
+            //Console.WriteLine(numbers.Contains(11)); //checks if list contains element 1
+            //Console.WriteLine(numbers.IndexOf(11)); //returns the index of element 11
+>>>>>>> b680e06598d57bab18204f513667e7fa330acbbd
 
             foreach (var n in numbers)
             {
