@@ -28,3 +28,4 @@ public class Person
 }
 
 //learn about nullable variable
+//learn about generic and collections

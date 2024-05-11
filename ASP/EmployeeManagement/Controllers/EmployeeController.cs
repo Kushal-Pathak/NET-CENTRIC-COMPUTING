@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 public class EmployeeController : Controller
 {
     public ActionResult Index()

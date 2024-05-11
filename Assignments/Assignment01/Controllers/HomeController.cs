@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using EmployeeManagement.Models;
+using Assignment01.Models;
 
-namespace EmployeeManagement.Controllers;
+namespace Assignment01.Controllers;
 
 public class HomeController : Controller
 {
@@ -15,7 +15,6 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewData["Title"] = "Home Page Title";
         return View();
     }
 
